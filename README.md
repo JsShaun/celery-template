@@ -1,7 +1,7 @@
 # celery-template
 
 ## 启动集群管理端
-- docker run --name flower -v ${PWD}/src:/root -w /root  -p 5555:5555 mher/flower celery -A tasks flower
+- docker run --name flower -v ${PWD}/app:/root -w /root  -p 5555:5555 mher/flower celery -A tasks flower
 
 
 
